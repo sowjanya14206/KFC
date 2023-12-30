@@ -1,0 +1,56 @@
+.header{
+    display: flex;
+    float: right;
+    color: white;
+    padding: 15px;
+}
+body{
+    background-image: url(kfc33.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+body:hover{
+    animation: bodymove 10s infinite;
+}
+@keyframes bodymove{
+    0%{
+        background-image: url(kfc33.jpg);
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url(kfc34.jpg);
+        background-size: cover;
+    }
+    50%{
+        background-image: url(kfc35.jpg);
+        background-size: cover;
+    }
+    75%{
+        background-image: url(kfc36.jpg);
+        background-size: cover;
+    }
+    100%{
+        background-image: url(kfc33.jpg);
+        background-size: cover;
+    }
+}
+a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    width: 90px;
+    height: 30px;
+    padding-top: 6px;
+    text-align: center;
+    font-size: larger;
+    border-radius: 20px;
+}
+a:hover{
+    color: black;
+    background-color: white;
+}
+hr{
+    height: 35px;
+    margin: auto;
+}
