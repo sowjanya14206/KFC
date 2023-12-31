@@ -23,6 +23,20 @@ body{
     padding: 15px;
     text-align: center;
 }
+#bio button{
+   border: none;
+   border-radius: 30px; 
+   line-height: 2.75rem;
+   font-family: "National 2 Regular";
+   font-weight: 500; 
+   font-style: normal;
+   background-color: red;
+   text-decoration: none;
+   font-size: 1rem;
+   cursor: pointer;
+   white-space: nowrap;
+   transition: background-color 0.3s;
+}
 .menu{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     width: 30%;
